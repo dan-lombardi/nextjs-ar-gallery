@@ -1,58 +1,60 @@
 {
   "artist": {
-    "name": "Michael Gold",
-    "avatar": "/images/avatar.jpg",
-    "shortBio": "Generative Artist",
-    "socials": [
-      { "icon": "FaHome", "url": "https://mike.gold" },
-      { "icon": "FaTwitter", "url": "https://twitter.com/michaelgold" },
-      { "icon": "FaGithub", "url": "https://github.com/michaelgold" },
-      { "icon": "FaLinkedin", "url": "https://linkedin.com/in/gold1" },
-      { "icon": "FaUniversity", "url": "https://sva.edu/faculty/michael-gold" }
-    ]
+    "name": "Dan Lombardi",
+    "avatar": "/images/dan_avatar.jpg",
+    "shortBio": "Certified Brontosaurus",
+    "socials": [{ "icon": "FaHome", "url": "https://mike.gold" }]
   },
   "project": {
-    "name": "AR Gallery Example"
+    "name": "Tech Direction Final"
   },
   "models": [
     {
-      "name": "Gold Cube",
-      "glbFile": "/assets/gold-cube.glb",
+      "name": "Yellow Flame",
+      "glbFile": "/assets/dan_fire_01.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "gold" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "Fire Height", "value": "0.7" },
+        { "trait_type": "Flame Density", "value": "0.446" },
+        { "trait_type": "Flame Intensity", "value": "1.4" },
+        { "trait_type": "Emission Strenght", "value": "33.1" },
+        { "trait_type": "RGB Influence", "value": "1.0" },
+        { "trait_type": "RGB", "value": "R: 16.8, G: 3, B: 0" }
       ]
     },
     {
-      "name": "Silver Cube",
-      "glbFile": "/assets/silver-cube.glb",
+      "name": "Pink Flame",
+      "glbFile": "/assets/dan_fire_02.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "silver" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "Fire Height", "value": "1.3" },
+        { "trait_type": "Flame Density", "value": "0.52" },
+        { "trait_type": "Flame Intensity", "value": "1.1" },
+        { "trait_type": "Emission Strenght", "value": "33.1" },
+        { "trait_type": "RGB Influence", "value": "1.0" },
+        { "trait_type": "RGB", "value": "R: 16.8, G: 3, B: 98.8" }
       ]
     },
     {
-      "name": "Red Cube",
-      "glbFile": "/assets/red-cube.glb",
+      "name": "Blue Flame",
+      "glbFile": "/assets/dan_fire_03.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "red" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "Fire Height", "value": "0.5" },
+        { "trait_type": "Flame Density", "value": "0.52" },
+        { "trait_type": "Flame Intensity", "value": "1.1" },
+        { "trait_type": "Emission Strenght", "value": "18.3" },
+        { "trait_type": "RGB Influence", "value": "1.0" },
+        { "trait_type": "RGB", "value": "R: 0, G: 16.2, B: 91.8" }
       ]
     },
     {
-      "name": "Green Cube",
-      "glbFile": "/assets/green-cube.glb",
+      "name": "Red Flame",
+      "glbFile": "/assets/dan_fire_04.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "green" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "Fire Height", "value": "1.5" },
+        { "trait_type": "Flame Density", "value": "0.52" },
+        { "trait_type": "Flame Intensity", "value": "1.9" },
+        { "trait_type": "Emission Strenght", "value": "18.3" },
+        { "trait_type": "RGB Influence", "value": "1.0" },
+        { "trait_type": "RGB", "value": "R: 54, G: 1.2, B: 2.6" }
       ]
     }
   ]

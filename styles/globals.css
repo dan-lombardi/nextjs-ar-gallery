@@ -15,8 +15,9 @@ a {
   box-sizing: border-box;
 }
 
-
 model-viewer {
+  background-image: url("../public/images/space.jpg");
+  background-size: cover;
   display: block;
   width: 100vw;
   height: 100vw;
@@ -48,7 +49,6 @@ model-viewer::part(default-progress-mask) {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 @keyframes wiggle {
   10%,
